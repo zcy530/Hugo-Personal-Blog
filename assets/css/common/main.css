@@ -1,7 +1,7 @@
 .main {
     position: relative;
     min-height: calc(100vh - var(--header-height) - var(--footer-height));
-    width: 65%;
+    width: 60%;
     margin: auto;
     padding: var(--gap);
     background-color: rgba(255, 255, 255, 0.6);
@@ -9,6 +9,8 @@
     padding-left: 70px;
     padding-right: 70px;
     backdrop-filter: blur(11px);
+    -webkit-backdrop-filter: blur(11px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .page-header h1 {
@@ -27,8 +29,8 @@
     color: var(--theme);
     font-size: 16px;
     line-height: 36px;
-    background: var(--primary);
-    border-radius: calc(36px / 2);
+    background: #1d4808 !important;
+    border-radius: 9px;
     padding: 0 16px;
 }
 
@@ -36,6 +38,10 @@
     margin-inline-start: auto;
 }
 
+.pagination .next-first {
+    margin-inline: auto; /* LTR 和 RTL 兼容 */
+    display: block;      /* 保证 margin 自动效果生效 */
+}
 
 .social-icons a {
     display: inline-flex;
