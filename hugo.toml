@@ -1,0 +1,55 @@
+baseURL = 'https://zcy530.github.io/'
+languageCode = 'en-us'
+title = 'My Channel'
+theme = 'PaperMod'
+ShowToc = true
+
+[params.homeInfoParams]
+Title = "Caiyi Zhang"
+Content = "Hello! I am a software engineer specializing in video processing and front-end development. This space serves as my personal journal where I document my notes and projects, sharing my learning experiences and growth in the field. I am passionate about exploring new technologies, solving complex problems, and enhancing user experiences. Feel free to connect with me!"
+
+[[params.socialIcons]]
+name = "Github"
+url = "<link>"
+
+[[params.socialIcons]]
+name = "Instagram"
+url = "<link>"
+
+[[params.socialIcons]]
+name = "LinkedIn"
+url = "<link>"
+
+[params]
+  ShowShareButtons = true
+  defaultTheme = "light"
+  ShowCodeCopyButtons = true
+  disableThemeToggle = true
+  ShowToc = true
+  TocOpen = true
+
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "Resume"
+    name = "Resume"
+    url = "/resume/"
+    weight = 2
+     
+  [[menu.main]]
+    identifier = "Archives"
+    name = "Archives"
+    url = "/Archives/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tag"
+    url = "/tags/"
+    weight = 4

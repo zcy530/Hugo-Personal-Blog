@@ -1,0 +1,101 @@
+.main {
+    position: relative;
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    max-width: calc(var(--main-width));
+    margin: auto;
+    padding: var(--gap);
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 18px;
+    padding-left: 70px;
+    padding-right: 70px;
+    backdrop-filter: blur(10px);
+}
+
+.page-header h1 {
+    font-size: 40px;
+}
+
+.post-entry {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.pagination {
+    display: flex;
+}
+
+.pagination a {
+    color: var(--theme);
+    font-size: 13px;
+    line-height: 36px;
+    background: var(--primary);
+    border-radius: calc(36px / 2);
+    padding: 0 16px;
+}
+
+.pagination .next {
+    margin-inline-start: auto;
+}
+
+
+.social-icons a {
+    display: inline-flex;
+    padding: 10px;
+}
+
+.social-icons a svg {
+    height: 26px;
+    width: 26px;
+}
+
+code {
+    direction: ltr;
+}
+
+div.highlight,
+pre {
+    position: relative;
+}
+
+.copy-code {
+    display: none;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(78, 78, 78, 0.8);
+    border-radius: var(--radius);
+    padding: 0 5px;
+    font-size: 14px;
+    user-select: none;
+}
+
+div.highlight:hover .copy-code,
+pre:hover .copy-code {
+    display: block;
+}
+
+body {
+    background-color: #f0f0f0; /* 修改为你想要的颜色 */
+    background-image: url('/images/bg2.jpg') /* 添加背景图片 */ !important;
+    background-size: cover /* 确保背景图片覆盖整个背景 */ !important;
+    background-position: center /* 图片居中 */ !important;
+    font-family: 'Consolas', monospace !important;
+    
+}
+
+@media screen and (min-width: 768px) {
+    ::-webkit-scrollbar {
+        width: 0 !important;
+        height: 0 !important;
+    }
+}
+
+h1 {
+    color: #266902;
+}
+
+.logo a, #menu a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff !important;
+}
