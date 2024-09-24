@@ -1,6 +1,6 @@
 +++
 title = 'Operating System'
-date = 2024-09-23T00:32:51+08:00
+date = 2020-09-01T00:00:00+08:00
 tags = ["CS Basic Knowledge", "Operating Systems"]
 author = 'Caiyi'
 draft = false

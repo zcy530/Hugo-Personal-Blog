@@ -6,7 +6,7 @@ ShowToc = true
 
 [params.homeInfoParams]
 Title = "Caiyi Zhang"
-Content = "Hello! I am a software engineer specializing in video processing and front-end development. This space serves as my personal journal where I document my notes and projects, sharing my learning experiences and growth in the field. I am passionate about exploring new technologies, solving complex problems, and enhancing user experiences. Feel free to connect with me!"
+Content = "Hello! I am a software engineer specializing in video processing and front-end development. his space serves as my personal journal where I document my notes and projects, sharing my learning experiences and growth in the field. I am passionate about exploring new technologies, solving complex problems, and enhancing user experiences. Feel free to connect with me! \n \n \n Hell"
 
 [[params.socialIcons]]
 name = "Github"
@@ -21,7 +21,6 @@ name = "LinkedIn"
 url = "<link>"
 
 [params]
-  ShowShareButtons = true
   defaultTheme = "light"
   ShowCodeCopyButtons = true
   disableThemeToggle = true

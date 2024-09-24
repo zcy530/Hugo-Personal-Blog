@@ -1,6 +1,6 @@
 +++
 title = 'Resume'
-date = 2024-09-23T23:43:13+08:00
+date = 2019-09-02T08:00:00+08:00
 anthor = 'Caiyi'
 url = "/resume/"
 draft = false
