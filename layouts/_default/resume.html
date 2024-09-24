@@ -1,0 +1,54 @@
+{{ define "main" }}
+<section class="resume">
+    <div class="container">
+        <header class="resume-header">
+            <h1>{{ .Title }}</h1>
+            <p>{{ .Params.summary }}</p>
+        </header>
+        
+        <div class="resume-content">
+            <!-- 个人信息 -->
+            <section class="personal-info">
+                <h2>Personal Information</h2>
+                <p>Name: {{ .Params.name }}</p>
+                <p>Email: <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a></p>
+                <p>LinkedIn: <a href="{{ .Params.linkedin }}">{{ .Params.linkedin }}</a></p>
+                <p>GitHub: <a href="{{ .Params.github }}">{{ .Params.github }}</a></p>
+            </section>
+
+            <!-- 工作经历 -->
+            <section class="experience">
+                <h2>Work Experience</h2>
+                {{ range .Params.experience }}
+                <div class="job">
+                    <h3>{{ .company }} - {{ .position }}</h3>
+                    <p>{{ .duration }}</p>
+                    <p>{{ .description }}</p>
+                </div>
+                {{ end }}
+            </section>
+
+            <!-- 教育背景 -->
+            <section class="education">
+                <h2>Education</h2>
+                {{ range .Params.education }}
+                <div class="school">
+                    <h3>{{ .institution }} - {{ .degree }}</h3>
+                    <p>{{ .years }}</p>
+                </div>
+                {{ end }}
+            </section>
+
+            <!-- 技能 -->
+            <section class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    {{ range .Params.skills }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+            </section>
+        </div>
+    </div>
+</section>
+{{ end }}

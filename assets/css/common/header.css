@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: var(--nav-width);
+    width: 67%;
     margin-inline-start: auto;
     margin-inline-end: auto;
     line-height: var(--header-height);
@@ -23,7 +23,7 @@
 }
 
 .logo a {
-    font-size: 35px;
+    font-size: 28px;
     font-weight: 700;
 }
 
@@ -62,7 +62,7 @@ body:not(.dark) #sun {
 }
 
 #menu a {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 #menu .active {

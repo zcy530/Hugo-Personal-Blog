@@ -172,6 +172,9 @@
     margin: 0;
 }
 
+.highlight pre {
+    background-color: transparent !important;
+}
 .post-content .highlighttable {
     table-layout: fixed;
 }
@@ -192,10 +195,10 @@
 .post-content code {
     margin: auto 4px;
     padding: 4px 6px;
-    font-size: 0.78em;
+    font-size: 0.9em;
     line-height: 1.5;
     background: var(--code-bg);
-    border-radius: 2px;
+    border-radius: 8px;
 }
 
 .post-content pre code {
@@ -204,7 +207,7 @@
     padding: 10px;
     color: rgb(213, 213, 214);
     background: var(--code-block-bg) !important;
-    border-radius: var(--radius);
+    border-radius: 8px;
     overflow-x: auto;
     word-break: break-all;
 }
@@ -254,9 +257,9 @@
 
 .toc {
     margin: 0 2px 40px 2px;
-    border: 1px solid var(--border);
-    background: var(--code-bg);
-    border-radius: var(--radius);
+    /* border: 1px solid var(--border); */
+    background: transparent;
+    border-radius: 8px;
     padding: 0.4em;
 }
 
@@ -407,3 +410,5 @@ img.in-text {
     display: inline;
     margin: auto;
 }
+
+
