@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 63%;
+    width: 68%;
     margin-inline-start: auto;
     margin-inline-end: auto;
     line-height: var(--header-height);
