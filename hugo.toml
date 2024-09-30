@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'My Channel'
 theme = 'PaperMod'
 ShowToc = true
-paginate = 3
+paginate = 4
 
 [params.homeInfoParams]
 Title = "Caiyi Zhang"
@@ -35,33 +35,27 @@ url = "<link>"
     name = "Home"
     url = "/"
     weight = 1
-     
-  [[menu.main]]
-    identifier = "Archives"
-    name = "Blog"
-    url = "/Archives/"
-    weight = 2
 
   [[menu.main]]
-    identifier = "Resume"
-    name = "Resume"
-    url = "/resume/"
-    weight = 3
+    identifier = "Blogs"
+    name = "Blogs"
+    url = "/Blogs/"
+    weight = 2
 
   [[menu.main]]
     identifier = "Projects"
     name = "Projects"
     url = "/project/"
-    weight = 4
-
+    weight = 3
+  
   [[menu.main]]
     identifier = "Life"
     name = "Life"
     url = "/life/"
-    weight = 5
-
+    weight = 4
+  
   [[menu.main]]
-    identifier = "tags"
-    name = "Tag"
-    url = "/tags/"
-    weight = 6
+    identifier = "Archives"
+    name = "Archives"
+    url = "/Archives/"
+    weight = 5

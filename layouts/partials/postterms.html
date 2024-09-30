@@ -1,0 +1,15 @@
+<ul class="terms-tags">
+    {{- $type := "tags" }}
+    {{- range (site.GetPage "taxonomy" $type).Data.Terms.Alphabetical }}
+    {{- $name := .Name }}
+    {{- $count := .Count }}
+    {{- with site.GetPage (printf "/%s/%s" $type $name) }}
+    <li>
+        <a href="{{ .Permalink }}">{{ .Name }} <sup><strong><sup>{{ $count }}</sup></strong></sup> </a>
+    </li>
+    {{- else }}
+    <li>Page not found for {{ $name }}</li>
+    {{- end }}
+    {{- end }}
+</ul>
+

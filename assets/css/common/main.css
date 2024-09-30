@@ -1,7 +1,7 @@
 .main {
     position: relative;
     min-height: calc(100vh - var(--header-height) - var(--footer-height));
-    width: 65%;
+    width: 70%;
     margin: auto;
     padding: 1.5rem;
     background-color: rgba(255, 255, 255, 0.6);
