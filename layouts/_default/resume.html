@@ -1,52 +1,66 @@
 {{ define "main" }}
+
+<header class="page-header">
+    <h1>Caiyi Zhang <span class="small-text"> / 张彩仪 </span></h1>
+</header>
+
 <section class="resume">
     <div class="container">
-        <header class="resume-header">
-            <h1>{{ .Title }}</h1>
-            <p>{{ .Params.summary }}</p>
-        </header>
+
+        {{- partial "home_info.html" . }}
         
         <div class="resume-content">
             <!-- 个人信息 -->
-            <section class="personal-info">
-                <h2>Personal Information</h2>
-                <p>Name: {{ .Params.name }}</p>
-                <p>Email: <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a></p>
-                <p>LinkedIn: <a href="{{ .Params.linkedin }}">{{ .Params.linkedin }}</a></p>
-                <p>GitHub: <a href="{{ .Params.github }}">{{ .Params.github }}</a></p>
-            </section>
 
             <!-- 工作经历 -->
-            <section class="experience">
+            <section>
                 <h2>Work Experience</h2>
                 {{ range .Params.experience }}
                 <div class="job">
-                    <h3>{{ .company }} - {{ .position }}</h3>
-                    <p>{{ .duration }}</p>
-                    <p>{{ .description }}</p>
+                    <div class="left-side">
+                        <h3>{{ .company }}</h3>
+                        <p>{{ .duration }}</p>
+                    </div>
+                    <div class="right-side">
+                        <h3>{{ .position }}</h3>
+                        <p>{{ .description }}</p>
+                        <p class="keywords"><u>Keywords:</u>{{ .key }}</p>
+                    </div>
                 </div>
                 {{ end }}
             </section>
 
             <!-- 教育背景 -->
-            <section class="education">
-                <h2>Education</h2>
+
+            <section>
+                <h2>Education Experience</h2>
                 {{ range .Params.education }}
-                <div class="school">
-                    <h3>{{ .institution }} - {{ .degree }}</h3>
-                    <p>{{ .years }}</p>
+                <div class="job">
+                    <div class="left-side">
+                        <h3>{{ .institution }}</h3>
+                        <p>{{ .years }}</p>
+                    </div>
+                    <div class="right-side">
+                        <h3>{{ .degree }}</h3>
+                        <p>{{ .introduce }}</p>
+                    </div>
                 </div>
                 {{ end }}
             </section>
 
             <!-- 技能 -->
-            <section class="skills">
+            <section>
                 <h2>Skills</h2>
-                <ul>
-                    {{ range .Params.skills }}
-                    <li>{{ . }}</li>
-                    {{ end }}
-                </ul>
+                {{ range .Params.skills }}
+                <div class="skill">
+                    <div class="left-side">
+                        <h3>{{ .type }}</h3>
+                    </div>
+                    <div class="right-side">
+                        <p>{{ .skill }}</p>
+                    </div>
+                </div>
+                {{ end }}
             </section>
         </div>
     </div>

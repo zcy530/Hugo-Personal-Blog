@@ -1,7 +1,7 @@
 +++
 title = 'Python Fast API'
 date = 2022-07-23T00:00:00+08:00
-tags = ["Backend Development", "Fast API" , "Python"]
+tags = ["Backend", "Python"]
 author = 'Caiyi'
 draft = false
 +++

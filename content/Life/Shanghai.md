@@ -1,7 +1,7 @@
 +++
 title = 'Shanghai'
-date = 2024-09-25T21:45:59+08:00
-image = '/images/bg2.jpg'
+date = 2024-09-28T21:45:59+08:00
+image = '/images/shanghai.JPG'
 draft = false
 +++
 

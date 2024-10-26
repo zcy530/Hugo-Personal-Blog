@@ -1,7 +1,7 @@
 +++
 title = 'Java Language Basic'
 date = 2020-07-12T08:00:00+08:00
-tags = ["Backend Development", "Programing Launguage" , "Java"]
+tags = ["Course Notes", "Backend", "Programing Launguage" , "Java"]
 author = 'Caiyi'
 draft = false
 +++

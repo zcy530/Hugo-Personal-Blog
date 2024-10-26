@@ -1,7 +1,7 @@
 +++
 title = 'Python Programing Basic'
 date = 2021-07-03T08:00:00+08:00
-tags = ["Programing Launguage", "Python"]
+tags = ["Course Notes", "Programing Launguage", "Python"]
 author = 'Caiyi'
 draft = false
 +++

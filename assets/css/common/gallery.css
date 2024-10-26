@@ -1,14 +1,14 @@
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
     gap: 20px;
-    padding: 20px;
+    padding: 0px;
 }
 
 .gallery-item {
     overflow: hidden;
-    border: 1px solid #ddd;
-    border-radius: 10px;
+    border: 0px solid #ddd;
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s;
 }
@@ -19,12 +19,16 @@
 
 .gallery-image {
     width: 100%;
-    height: auto;
+    height: 170px;
     display: block;
+    object-fit: cover; /* 裁剪多余部分 */
+    object-position: center; /* 图片居中裁剪 */
 }
 
 .gallery-item h2 {
     text-align: center;
     padding: 10px;
-    font-size: 1.2em;
+    font-size: 0.96rem;
+    font-weight: 500;
+    color: rgba(0,0,0,0.7);
 }

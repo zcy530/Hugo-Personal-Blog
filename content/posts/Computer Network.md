@@ -2,7 +2,7 @@
 +++
 title = 'Computer Network'
 date = 2020-09-20T00:00:00+08:00
-tags = ["CS Basic Knowledge", "Computer Network"]
+tags = ["Course Notes", "Computer Network"]
 author = 'Caiyi'
 draft = false
 +++

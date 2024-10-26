@@ -2,10 +2,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 73%;
+    width: 83%;
     margin-inline-start: auto;
     margin-inline-end: auto;
-    line-height: var(--header-height);
+    line-height: 50px;
 }
 
 .nav a {
@@ -16,6 +16,7 @@
 #menu {
     display: flex;
     margin: auto var(--gap);
+    font-weight: 500;
 }
 
 .logo {
@@ -23,8 +24,8 @@
 }
 
 .logo a {
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 1.65rem;
+    font-weight: 1000;
 }
 
 .logo a img, .logo a svg {
@@ -62,7 +63,7 @@ body:not(.dark) #sun {
 }
 
 #menu a {
-    font-size: 22px;
+    font-size: 1.2rem;
 }
 
 #menu .active {

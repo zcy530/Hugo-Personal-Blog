@@ -1,7 +1,7 @@
 +++
 title = 'Node.js Express Quick Learning'
 date = 2022-08-01T00:00:00+08:00
-tags = ["Frontend Development", "Node.js", "Express", "JavaScript"]
+tags = ["Frontend", "Node.js", "JavaScript"]
 author = 'Caiyi'
 draft = false
 +++

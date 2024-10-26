@@ -1,7 +1,6 @@
 +++
-title = 'Blogs'
-anthor = 'Caiyi'
-url = '/Blogs/'
+title = 'My Posts'
+url = '/posts/'
 layout = 'postlist'
 draft = false
 +++

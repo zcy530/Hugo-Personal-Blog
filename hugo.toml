@@ -1,13 +1,14 @@
 baseURL = 'https://zcy530.github.io/'
 languageCode = 'en-us'
-title = 'My Channel'
+title = "Caiyi's Website"
 theme = 'PaperMod'
 ShowToc = true
 paginate = 4
 
 [params.homeInfoParams]
 Title = "Caiyi Zhang"
-Content = "Hello! I am a software engineer specializing in video processing and front-end development. his space serves as my personal journal where I document my notes and projects, sharing my learning experiences and growth in the field. I am passionate about exploring new technologies, solving complex problems, and enhancing user experiences. Feel free to connect with me! \n \n \n Hell"
+Hello = "Hello, this is Caiyi Zhang from China, welcome to my website!!"
+Content = "I was born in Chongqing in 2000 and graduated with a bachelor's degree in Software Engineering from East China Normal University in Shanghai. Currently, I work as a software engineer at Microsoft, where I am responsible for video processing, camera capture and codec quality for Teams product. As a video engineer, I also have a strong interest in both front-end and back-end development and a passion for researching and learning new technologies. Feel free to contact me."
 
 [[params.socialIcons]]
 name = "Github"
@@ -28,18 +29,17 @@ url = "<link>"
   ShowToc = true
   TocOpen = true
 
-
 [menu]
   [[menu.main]]
-    identifier = "home"
+    identifier = "Home"
     name = "Home"
-    url = "/"
+    url="/home/"
     weight = 1
 
   [[menu.main]]
-    identifier = "Blogs"
-    name = "Blogs"
-    url = "/Blogs/"
+    identifier = "Posts"
+    name = "Posts"
+    url = "/posts/"
     weight = 2
 
   [[menu.main]]
